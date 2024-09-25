@@ -44,7 +44,7 @@ public class FullScreenActivity extends AppCompatActivity {
     private void setWallpaper(ImageView imageView) {
         Bitmap bitmap = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
 
-        WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
+        WallpaperManager wallpaperManager  = WallpaperManager.getInstance(getApplicationContext());
         try {
             wallpaperManager.setBitmap(bitmap);
             Toast.makeText(this, "Wallpaper set successfully!", Toast.LENGTH_SHORT).show();

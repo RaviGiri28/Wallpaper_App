@@ -48,7 +48,6 @@
         app:itemTextColor="@color/black"
         android:background="@android:color/white"
         app:itemHorizontalPadding="10dp"
-        app:itemIconTint="@color/black"
+        app:itemIconTint="@color/black"/>
 
-    />
 </androidx.drawerlayout.widget.DrawerLayout>

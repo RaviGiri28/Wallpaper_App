@@ -34,7 +34,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
         int imageResId = imageIds[position];
 
         // Use Glide to load the image efficiently
-        Glide.with(context)+
+        Glide.with(context)
                 .load(imageResId)
                 .placeholder(R.drawable.placeholder) // Placeholder image while loading
                 .override(600, 600)
