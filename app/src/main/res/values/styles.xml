@@ -1,0 +1,8 @@
+<resources>
+    <!-- Custom style for the AlertDialog -->
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#FFFFFF</item> <!-- White background -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Black text color -->
+        <item name="android:colorAccent">#000000</item> <!-- Accent color for buttons -->
+    </style>
+</resources>

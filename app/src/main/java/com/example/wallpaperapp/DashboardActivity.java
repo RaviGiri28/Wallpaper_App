@@ -39,7 +39,12 @@ public class DashboardActivity extends AppCompatActivity {
             R.drawable.image16,
             R.drawable.image17,
             R.drawable.image18,
-            R.drawable.image19
+            R.drawable.image19,
+            R.drawable.image21,
+            R.drawable.image23,
+            R.drawable.image24
+
+
     };
 
     @Override
@@ -117,8 +122,8 @@ public class DashboardActivity extends AppCompatActivity {
 
 
     private void showExitConfirmationDialog() {
-        // Create an AlertDialog to ask for exit confirmation
-        new AlertDialog.Builder(this)
+        // Create an AlertDialog with a custom style to set the background to white
+        new AlertDialog.Builder(this, R.style.CustomAlertDialog)
                 .setTitle("Exit App")
                 .setMessage("Do you really want to exit?")
                 .setPositiveButton("Yes", (dialog, which) -> {
@@ -131,4 +136,5 @@ public class DashboardActivity extends AppCompatActivity {
                 })
                 .show();
     }
+
 }
