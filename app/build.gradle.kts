@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wallpaperapp"
+    namespace = "com.deepwalls.wallpaperapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.wallpaperapp"
+        applicationId = "com.deepwalls.wallpaperapp"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

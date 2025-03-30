@@ -1,4 +1,4 @@
-package com.example.wallpaperapp;
+package com.deepwalls.wallpaperapp;
 
 import org.junit.Test;
 

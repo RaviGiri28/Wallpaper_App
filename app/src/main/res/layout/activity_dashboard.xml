@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".DashboardActivity">
+    tools:context="com.deepwalls.wallpaperapp.DashboardActivity">
 
     <!-- Main content layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -39,15 +39,15 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- Navigation drawer -->
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:menu="@menu/drawer_menu"
-        app:itemTextColor="@color/black"
-        android:background="@android:color/white"
-        app:itemHorizontalPadding="10dp"
-        app:itemIconTint="@color/black"/>
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        app:menu="@menu/drawer_menu"-->
+<!--        app:itemTextColor="@color/black"-->
+<!--        android:background="@android:color/white"-->
+<!--        app:itemHorizontalPadding="10dp"-->
+<!--        app:itemIconTint="@color/black"/>-->
 
 </androidx.drawerlayout.widget.DrawerLayout>
